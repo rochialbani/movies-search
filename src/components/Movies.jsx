@@ -19,7 +19,7 @@ function ListOfMovies ({ movies }) {
 
 function NoMoviesResults () {
   return (
-    <p className='text-gray-200'>No se encontraron peliculas</p>
+    <p className='text-gray-200'>No movies found</p>
   )
 }
 
