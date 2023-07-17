@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .hoveres{
+    @apply hidden
+  }
+  
+  .hovered:hover .hoveres {
+    @apply flex flex-col justify-center items-center
+  }
+  
+  li {
+    @apply cursor-pointer
+  }
+  
+  .linear-bg{
+    background: linear-gradient(269.82deg, #07091c00 0.17%, #080a1ad6 99.87%);
+  }
