@@ -1,4 +1,5 @@
-const API_KEY = import.meta.env.VITE_API_KEY
+// const API_KEY = import.meta.env.VITE_API_KEY
+const API_KEY = '4287ad07'
 
 export const searchMovies = async ({ search }) => {
   if (search === '') return null
